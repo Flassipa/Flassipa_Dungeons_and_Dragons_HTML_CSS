@@ -10,6 +10,18 @@
     font-weight: bold;
 }
 
+header {
+    background-color: rgb(235, 207, 156);
+    text-align: left;
+    padding: 30px;
+    border-bottom: 2px solid #c27400;
+    font-family: "Quicksand", Helvetica;
+}
+
+header h1 {
+    margin-bottom: 8px;
+}
+
 h1, h2, h3, h4, h5, h6 {
     font-family: "Quicksand", Helvetica;
     color:rgb(58, 0, 112);
