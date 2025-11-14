@@ -20,6 +20,9 @@ header {
     width: 100%;
     display: flex;
     justify-content: space-evenly;
+    position: fixed;
+    z-index: 1;
+    top: 0;
 }
 
 header h1 {
@@ -64,7 +67,7 @@ nav ul a {
     text-transform: uppercase;
 }
 
-nav ul a:hover, .aktivni a {
+nav ul a:hover, .aktive a {
     border-bottom: 2px solid;
 }
 
@@ -83,6 +86,7 @@ article {
 body {
     background:antiquewhite;
     margin: 0;
+    padding-top: 180px;
 }
 table {
     border-collapse: collapse;
@@ -102,4 +106,15 @@ table {
 
   html {
     background-color: rgb(235, 207, 156);
+  }
+
+  table.framed {
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-collapse: collapse;
+  }
+
+  table.framed th, 
+  table.framed td {
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    padding: 6px 10px;
   }
